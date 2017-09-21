@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FGRSA_Tests' do
+  pod 'FGRSA', :path => '../'
+  
+  
+end
