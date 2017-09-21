@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B19B25ECD134F85989C67370119B71 /* FGRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDB316AB642C96A5B2377FAFD3EC02 /* FGRSA.m */; };
+		12BE5AB96F8CC2C378ADC29CFF36B8D8 /* FGRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE152F19F5BB022AF89A5123498610F /* FGRSA-dummy.m */; };
+		3099EEC740678E74F6338973E2C9D131 /* FGRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B3BD3BC5277C6ECDCA154AF21F9C92 /* FGRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62347FE8AED8FB1AFB31258277A434EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A31BD4943D6CA0D770613F29CBFCB8B8 /* FGRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E78270A440CA4E2F5462FD4727F1AA1 /* FGRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3BC535F6085F18523C284E78F5BD8B7 /* Pods-FGRSA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1C9E17EE739201B782AAD2DC35D5CF /* Pods-FGRSA_Tests-dummy.m */; };
+		C1572F01DFFF60D05FF63A3D283B1738 /* Pods-FGRSA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AC93FAF424A3B5B41D094D3DA2FF75 /* Pods-FGRSA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA20C541A53F356ED134E5222E853775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA4D6678E6D06DF4EDE078ADB0AD3229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E9EFEBC5CC1F9BAD840E86C077DF3C;
+			remoteInfo = FGRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BBDB316AB642C96A5B2377FAFD3EC02 /* FGRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FGRSA.m; sourceTree = "<group>"; };
+		1CA836C9F3AC92DB48C61AF62FF93D46 /* Pods-FGRSA_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGRSA_Tests-resources.sh"; sourceTree = "<group>"; };
+		1EB9062F47AD04BA187D156CA68F855C /* Pods-FGRSA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGRSA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB53D16739812AF4B6F51DFDD08F6CB /* Pods_FGRSA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FGRSA_Tests.framework; path = "Pods-FGRSA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE152F19F5BB022AF89A5123498610F /* FGRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FGRSA-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67B3BD3BC5277C6ECDCA154AF21F9C92 /* FGRSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRSA-umbrella.h"; sourceTree = "<group>"; };
+		7E8242337F990F17B8C3928305D4D332 /* Pods-FGRSA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FGRSA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93AC93FAF424A3B5B41D094D3DA2FF75 /* Pods-FGRSA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FGRSA_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9E78270A440CA4E2F5462FD4727F1AA1 /* FGRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FGRSA.h; sourceTree = "<group>"; };
+		9F17F78468D1384F871856EB87182E1E /* Pods-FGRSA_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FGRSA_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AB1C9E17EE739201B782AAD2DC35D5CF /* Pods-FGRSA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FGRSA_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1CA4075EA86717781430D1EC63DC763 /* Pods-FGRSA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FGRSA_Tests.modulemap"; sourceTree = "<group>"; };
+		C2E2F2CA92CF8A2B5D8C75D728543EB8 /* FGRSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FGRSA-prefix.pch"; sourceTree = "<group>"; };
+		C7B594CB67645E68AE265319256DD381 /* FGRSA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FGRSA.xcconfig; sourceTree = "<group>"; };
+		D194F3046BF9EB67FB9110854AA6F148 /* FGRSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FGRSA.modulemap; sourceTree = "<group>"; };
+		E65226294DED51FCC00CE43FC2916DFF /* Pods-FGRSA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FGRSA_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E807E4429A3EFF14B7D626E4E83E6FE6 /* FGRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FGRSA.framework; path = FGRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2902FEF6E461E3FE110E8440D4F676 /* Pods-FGRSA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FGRSA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0DFF4A92B16227895B00356F5FD2E90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEAD6F83137B5967FAD46373DB935E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8E92069CAA55979F30855B6AA22A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20C541A53F356ED134E5222E853775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497323B18196A45A4D9A7D966631A9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62347FE8AED8FB1AFB31258277A434EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C5CCCA69B6C43CAE48B984D18573E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD7D86A38253C9A2C6CD2974721D35B /* FGRSA */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44FF7BE1C842E07FE13AE95C0DA51651 /* Pods-FGRSA_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0DFF4A92B16227895B00356F5FD2E90 /* Info.plist */,
+				C1CA4075EA86717781430D1EC63DC763 /* Pods-FGRSA_Tests.modulemap */,
+				7E8242337F990F17B8C3928305D4D332 /* Pods-FGRSA_Tests-acknowledgements.markdown */,
+				ED2902FEF6E461E3FE110E8440D4F676 /* Pods-FGRSA_Tests-acknowledgements.plist */,
+				AB1C9E17EE739201B782AAD2DC35D5CF /* Pods-FGRSA_Tests-dummy.m */,
+				9F17F78468D1384F871856EB87182E1E /* Pods-FGRSA_Tests-frameworks.sh */,
+				1CA836C9F3AC92DB48C61AF62FF93D46 /* Pods-FGRSA_Tests-resources.sh */,
+				93AC93FAF424A3B5B41D094D3DA2FF75 /* Pods-FGRSA_Tests-umbrella.h */,
+				1EB9062F47AD04BA187D156CA68F855C /* Pods-FGRSA_Tests.debug.xcconfig */,
+				E65226294DED51FCC00CE43FC2916DFF /* Pods-FGRSA_Tests.release.xcconfig */,
+			);
+			name = "Pods-FGRSA_Tests";
+			path = "Target Support Files/Pods-FGRSA_Tests";
+			sourceTree = "<group>";
+		};
+		746AB96CFB3CB9A378E4A6616E6DCF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E807E4429A3EFF14B7D626E4E83E6FE6 /* FGRSA.framework */,
+				4AB53D16739812AF4B6F51DFDD08F6CB /* Pods_FGRSA_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				40C5CCCA69B6C43CAE48B984D18573E9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				746AB96CFB3CB9A378E4A6616E6DCF71 /* Products */,
+				FE0DEFC11DD3C807B62E86B460923EFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5818947ADA5DDCD1E56565E89DEDA9 /* FGRSA */ = {
+			isa = PBXGroup;
+			children = (
+				FFE39141A542E90092DD714130CEC595 /* Classes */,
+			);
+			name = FGRSA;
+			path = FGRSA;
+			sourceTree = "<group>";
+		};
+		8BD7D86A38253C9A2C6CD2974721D35B /* FGRSA */ = {
+			isa = PBXGroup;
+			children = (
+				8A5818947ADA5DDCD1E56565E89DEDA9 /* FGRSA */,
+				B70A300D38C2997F5959A3BD95C50B8E /* Support Files */,
+			);
+			name = FGRSA;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B70A300D38C2997F5959A3BD95C50B8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D194F3046BF9EB67FB9110854AA6F148 /* FGRSA.modulemap */,
+				C7B594CB67645E68AE265319256DD381 /* FGRSA.xcconfig */,
+				5AE152F19F5BB022AF89A5123498610F /* FGRSA-dummy.m */,
+				C2E2F2CA92CF8A2B5D8C75D728543EB8 /* FGRSA-prefix.pch */,
+				67B3BD3BC5277C6ECDCA154AF21F9C92 /* FGRSA-umbrella.h */,
+				FDEAD6F83137B5967FAD46373DB935E0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FGRSA";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE0DEFC11DD3C807B62E86B460923EFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44FF7BE1C842E07FE13AE95C0DA51651 /* Pods-FGRSA_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FFE39141A542E90092DD714130CEC595 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E78270A440CA4E2F5462FD4727F1AA1 /* FGRSA.h */,
+				1BBDB316AB642C96A5B2377FAFD3EC02 /* FGRSA.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D7D05E122A8F767C8513BB3E1DD089D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3099EEC740678E74F6338973E2C9D131 /* FGRSA-umbrella.h in Headers */,
+				A31BD4943D6CA0D770613F29CBFCB8B8 /* FGRSA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F821ADE0D24A17F1D52EBDCF52E67891 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1572F01DFFF60D05FF63A3D283B1738 /* Pods-FGRSA_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48E5714B5537AF9C5F069070F95FA324 /* Pods-FGRSA_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1334F5044069E5EE97D91CD2F28B5B /* Build configuration list for PBXNativeTarget "Pods-FGRSA_Tests" */;
+			buildPhases = (
+				C9EF1A2AB504FD525907D2CE9668E62E /* Sources */,
+				0A8E92069CAA55979F30855B6AA22A9E /* Frameworks */,
+				F821ADE0D24A17F1D52EBDCF52E67891 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB0F998FB5C214E35717E159D766651 /* PBXTargetDependency */,
+			);
+			name = "Pods-FGRSA_Tests";
+			productName = "Pods-FGRSA_Tests";
+			productReference = 4AB53D16739812AF4B6F51DFDD08F6CB /* Pods_FGRSA_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51E9EFEBC5CC1F9BAD840E86C077DF3C /* FGRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DD2C4FB1DFE08AFC976D04F64E25BC /* Build configuration list for PBXNativeTarget "FGRSA" */;
+			buildPhases = (
+				9C59B792FF8FBD6839E1E086094A7319 /* Sources */,
+				497323B18196A45A4D9A7D966631A9C3 /* Frameworks */,
+				D7D05E122A8F767C8513BB3E1DD089D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGRSA;
+			productName = FGRSA;
+			productReference = E807E4429A3EFF14B7D626E4E83E6FE6 /* FGRSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 746AB96CFB3CB9A378E4A6616E6DCF71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E9EFEBC5CC1F9BAD840E86C077DF3C /* FGRSA */,
+				48E5714B5537AF9C5F069070F95FA324 /* Pods-FGRSA_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C59B792FF8FBD6839E1E086094A7319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BE5AB96F8CC2C378ADC29CFF36B8D8 /* FGRSA-dummy.m in Sources */,
+				04B19B25ECD134F85989C67370119B71 /* FGRSA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EF1A2AB504FD525907D2CE9668E62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BC535F6085F18523C284E78F5BD8B7 /* Pods-FGRSA_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB0F998FB5C214E35717E159D766651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FGRSA;
+			target = 51E9EFEBC5CC1F9BAD840E86C077DF3C /* FGRSA */;
+			targetProxy = CA4D6678E6D06DF4EDE078ADB0AD3229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CECACF7673A10DF9F25C729CE8F43A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B594CB67645E68AE265319256DD381 /* FGRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FGRSA/FGRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGRSA/FGRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FGRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0DFCCEF9DC8C8D2E30636EC45328EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65226294DED51FCC00CE43FC2916DFF /* Pods-FGRSA_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FGRSA_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGRSA_Tests/Pods-FGRSA_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FGRSA_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE89AE9D4465E4EC8DDD3EB6DCB46630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB9062F47AD04BA187D156CA68F855C /* Pods-FGRSA_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FGRSA_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FGRSA_Tests/Pods-FGRSA_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FGRSA_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D1F3EA8BBB1F1F80D0311F7AD3CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B594CB67645E68AE265319256DD381 /* FGRSA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FGRSA/FGRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FGRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FGRSA/FGRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FGRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1334F5044069E5EE97D91CD2F28B5B /* Build configuration list for PBXNativeTarget "Pods-FGRSA_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE89AE9D4465E4EC8DDD3EB6DCB46630 /* Debug */,
+				A0DFCCEF9DC8C8D2E30636EC45328EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DD2C4FB1DFE08AFC976D04F64E25BC /* Build configuration list for PBXNativeTarget "FGRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D1F3EA8BBB1F1F80D0311F7AD3CAF4 /* Debug */,
+				5CECACF7673A10DF9F25C729CE8F43A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

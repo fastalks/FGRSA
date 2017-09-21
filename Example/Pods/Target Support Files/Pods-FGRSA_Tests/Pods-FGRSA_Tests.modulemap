@@ -1,0 +1,6 @@
+framework module Pods_FGRSA_Tests {
+  umbrella header "Pods-FGRSA_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

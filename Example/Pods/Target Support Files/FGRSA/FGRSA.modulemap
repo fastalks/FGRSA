@@ -1,0 +1,6 @@
+framework module FGRSA {
+  umbrella header "FGRSA-umbrella.h"
+
+  export *
+  module * { export * }
+}
